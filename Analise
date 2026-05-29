@@ -1,0 +1,8 @@
+a) Sim. Ao ordenar os primeiros 2n/3 elementos, os maiores valores dessa região são empurrados
+para a interseção do meio. Ao ordenar os últimos 2n/3 elementos (que inclui a interseção),
+nós garantimos que o 1/3 maior de toda a lista seja colocado definitivamente no 1/3 final do array,
+totalmente ordenado. Sobram os 2/3 iniciais do array que podem estar desordenados, mas todos os seus
+elementos são menores que os do terço final. A terceira e última ordenação foca nos primeiros 2n/3 elementos, deixando-os em ordem. 
+
+b) Tempo  3 x O((2n/3)^2) = 3 x O(4n^2/9) = O(n^2).
+O tempo de execução é O(n^2).
