@@ -1,0 +1,2 @@
+a) Tamanho n/2 em tempo O(n/2) + O(n/2) = O(n). Logo, o tempo de execução no melhor caso é O(n).
+b) Tempo total no pior caso é O(n^2).
